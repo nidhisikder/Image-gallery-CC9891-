@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js"></script>
+    <header>
+        <h1 class="heading">Image Gallery Filtering Web Application</h1>
+        <div class="parallax-effect">
+        </div>
+        
+    </header>
+</head>
+<body>
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('people')"> People</button>
+      </div>
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+        <div class="column nature">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-marlon-martinez-505085-1450078.jpg" alt="Mountains" style="width:100%">
+                <h4>Mountains</h4>
+                <p>A beautiful picture of mountain with a stream infront. </p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-eberhardgross-534164.jpg" alt="Lake" style="width:100%">
+                <h4>Lake</h4>
+                <p>A clear water lake with breathtaking mountains.A very refreshing picture.</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-biluk-165537.jpg" alt="Nature" style="width:100%">
+                <h4>Forest</h4>
+                <p>Lots of trees and greenery with sunlight shining through.</p>
+            </div>
+        </div>
+  
+        <div class="column cars">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-alexgtacar-745150-1592384.jpg" alt="Car" style="width:100%">
+                <h4>Retro</h4>
+                <p>A blue retro Car still holding it's poise and class.</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-pixabay-274974.jpg" alt="Car" style="width:100%">
+                <h4>Fast</h4>
+                <p>A white fancy car dashing through streets.</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-pixabay-210019.jpg" alt="Car" style="width:100%">
+                <h4>Classic</h4>
+                <p>A red car never goes out of style.</p>
+            </div>
+        </div>
+  
+        <div class="column people">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-vjapratama-935835.jpg" alt="People" style="width:100%">
+                <h4>Friends</h4>
+                <p>A group of friends enjoying the sunset at the beach with each other and having fun.</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-olly-925786.jpg" alt="People" style="width:100%">
+                <h4>Man</h4>
+                <p>A man doing his work on a laptop.</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+                <img src="/gallery-filtering-project/images/pexels-picjumbo-com-55570-196652.jpg" alt="People" style="width:100%">
+                <h4>Party</h4>
+                <p>Lots of people partying and enjoying at a concert. </p>
+            </div>
+        </div>
+  <!-- END GRID -->
+  </div>
+  <p class="para-head">This Web Application demonstrates how from a group of pictures , certain similar type of pictures can be filtered based on some classification.<br>
+    In this project lots of pictures are shown depicting a galery.Few tabs are introduced, on clicking them we can filter and see only those pictures that satisfies those tags.  </p>
+
+    
+</body>
+</html>
